@@ -1,0 +1,16 @@
+node_modules
+dist
+
+# Environment variables
+.env
+.env.local
+
+
+# WhatsApp session & cache
+.wwebjs_auth
+.wwebjs_cache
+
+# Uploads (keep folder structure, ignore actual files)
+uploads/logos/*
+!uploads/logos/.gitkeep
+uploads/logos/
